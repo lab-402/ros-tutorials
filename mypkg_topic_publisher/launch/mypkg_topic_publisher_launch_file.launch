@@ -1,0 +1,5 @@
+<launch>
+  <!-- simple already has its own built in velocity smoother -->
+  <node pkg="mypkg_topic_publisher" type="mypkg_topic_publisher.py" name="move_cmder"  output="screen">
+  </node>
+</launch>
