@@ -1,0 +1,5 @@
+<launch>
+  <!-- simple already has its own built in velocity smoother -->
+  <!-- <node pkg="print_odometry" type="print_odometry.py" name="odometry_printer"  output="screen"></node> -->
+  <node pkg="print_odometry" type="getting_older.py" name="getting_older_node"  output="screen"></node>
+</launch>
