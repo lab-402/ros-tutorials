@@ -1,0 +1,5 @@
+<launch>
+  <!-- simple already has its own built in velocity smoother -->
+  <node pkg="age_publisher" type="getting_older.py" name="node_getting_older"  output="screen">
+  </node>
+</launch>
