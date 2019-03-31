@@ -1,0 +1,5 @@
+<launch>
+  <!-- simple already has its own built in velocity smoother -->
+  <node pkg="topics_quiz" type="detect_obstacles.py" name="topics_quiz_node"  output="screen"></node>
+  <!-- <node pkg="topics_quiz" type="avoid_obstacles.py" name="maneuver_node"  output="screen"></node> -->
+</launch>
